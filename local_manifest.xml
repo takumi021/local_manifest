@@ -9,6 +9,9 @@
 
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
+                
+                <remote name="Amritorock"
+                fetch="https://github.com/Amritorock" />
     
 <!-- device trees -->
 
