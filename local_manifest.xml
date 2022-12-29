@@ -9,9 +9,6 @@
 
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
-                
-                <remote name="Amritorock"
-                fetch="https://github.com/Amritorock" />
     
 <!-- device trees -->
 
@@ -23,10 +20,6 @@
 
 <!-- Replacement -->
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="Amritorock" revision="thirteen-plus" />
-        <remove-project name="frameworks_opt_telephony" />
-        <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="Amritorock" revision="thirteen" />
-
-
+        <project path="frameworks/base" name="android_frameworks_base" remote="takumi021" revision="arrow-13.0" />
 
 </manifest>
