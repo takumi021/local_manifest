@@ -7,19 +7,18 @@
         <remote name="om"
                 fetch="https://github.com/takumi021" />
 
-       <remote name="clang"
-                fetch="https://gitlab.com/Amritorock" />
+<remote name="org"
+                fetch="https://github.com/realme-sm6125-devs" />
     
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="om" revision="13" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="om" revision="thirteen" />
-        <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="om" revision="Chisato" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-  
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="org" revision="13" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="org" revision="thirteen" clone-depth="1"/>
+        <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="om" revision="inline" clone-depth="1" />
+          <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="om" revision="thirteen" clone-depth="1" />
 
 <!-- Replacement -->
         <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="takumi021" revision="arrow-13.0" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="om" revision="thirteen" />
 
 </manifest>
