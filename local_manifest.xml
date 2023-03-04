@@ -18,11 +18,9 @@
         <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="om" revision="inline" clone-depth="1" />
         <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="om" revision="thirteen" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-        <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="om" revision="lineage-20.0-caf-sm8150" />
         
 <!-- Replacement -->
         <remove-project name="android_frameworks_base" />
         <project path="frameworks/base" name="android_hardware_qcom_sm8150_display" remote="om" revision="triton" clone-depth="1" />        
-        <remove-project name="android_frameworks_base" />
-        <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="om" revision="triton" clone-depth="1" />      
+       <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="om" revision="lineage-20.0-caf-sm8150" />
 </manifest>
