@@ -18,7 +18,7 @@
        <!-- Device trees -->
         <project path="device/realme/r5x" name="device_realme_r5x" remote="om" revision="qssi" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="om" revision="qssi" clone-depth="1" />
-        <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="om" revision="inline" clone-depth="1" />
+        <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="om" revision="inline" />
         
         <!-- Source Repos -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
