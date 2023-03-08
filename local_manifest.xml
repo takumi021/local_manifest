@@ -25,6 +25,6 @@
 <!-- Replacement -->
         <remove-project name="android_frameworks_base" />
         <project path="frameworks/base" name="android_frameworks_base" remote="om" revision="triton" clone-depth="1" />        
-        <remove-project name="LineageOS/android_hardware_qcom-caf_sm8150_display"/>
+        <remove-project name="android_hardware_qcom_display"/>
         <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="om" revision="lineage-20.0-caf-sm8150" />
 </manifest>
