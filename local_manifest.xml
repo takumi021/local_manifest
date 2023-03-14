@@ -13,6 +13,7 @@
 
         <!-- Replacement -->
         <remove-project name="android_frameworks_base" />
+        <remove-project name="platform/hardware/qcom-caf/sm8150/display"/>
 
        <!-- Device trees -->
         <project path="device/realme/r5x" name="device_realme_r5x" remote="om" revision="thirteen" />
@@ -23,6 +24,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         <!-- Replaced -->
         <project path="frameworks/base" name="android_frameworks_base" remote="om" revision="triton" clone-depth="1" />        
+        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="om" revision="lineage-20.0-caf-sm8150" />
 
         <!-- Applications -->
         <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="om" revision="thirteen" clone-depth="1" />
