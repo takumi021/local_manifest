@@ -13,7 +13,7 @@
 
         <!-- Replacement -->
         <remove-project name="android_frameworks_base" />
-        <remove-project name="platform/hardware/qcom-caf/sm8150/display"/>
+        <remove-project name="hardware_qcom-caf_sm8150_display"/>
 
        <!-- Device trees -->
         <project path="device/realme/r5x" name="device_realme_r5x" remote="om" revision="thirteen" />
