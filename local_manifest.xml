@@ -16,8 +16,8 @@
 
        <!-- Device trees -->
         <project path="device/realme/bearmonets" name="device_realme_bearmonets" remote="om" revision="thirteen" />
-        <project path="vendor/realme/bearmonets" name="vendor_realme_bearmonets" remote="om" revision="thirteen" clone-depth="1" />
-        <project path="kernel/realme/bearmonets" name="kernel_realme_trinket" remote="om" revision="inline" />
+        <project path="vendor/realme/bearmonets" name="vendor_realme_r5x" remote="om" revision="thirteen" clone-depth="1" />
+        <project path="kernel/realme/bearmonets" name="kernel_realme_r5x" remote="org" revision="inline/dynamic" />
         
         <!-- Source Repos -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
