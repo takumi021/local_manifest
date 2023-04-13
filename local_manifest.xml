@@ -15,8 +15,8 @@
         <remove-project name="android_frameworks_base" />
 
        <!-- Device trees -->
-        <project path="device/realme/bearmonets" name="device_realme_bearmonets" remote="om" revision="thirteen" />
-        <project path="vendor/realme/bearmonets" name="vendor_realme_r5x" remote="om" revision="thirteen" clone-depth="1" />
+        <project path="device/realme/bearmonets" name="device_realme_bearmonets" remote="om" revision="testing" />
+        <project path="vendor/realme/bearmonets" name="vendor_realme_bearmonets" remote="om" revision="thirteen" clone-depth="1" />
         <project path="kernel/realme/bearmonets" name="kernel_realme_r5x" remote="org" revision="inline/dynamic" />
         
         <!-- Source Repos -->
