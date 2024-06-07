@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="12r"
+      fetch="https://github.com/OnePlus12R-development"
+      sync-c="true"
+      sync-tags="false" />
+  
+  <project name="android_device_oneplus_aston" path="device/oneplus/aston" revision="lineage-21" remote="12r" />
+  <project name="android_device_oneplus_sm8550-common" path="device/oneplus/sm8550-common" revision="lineage-21" remote="12r" />
 
-        <!-- fetching sources -->      
-        <remote name="om"
-                fetch="https://github.com/takumi021" />
-        <remote name="org"
-                fetch="https://github.com/realme-sm6125-devs" />
-        <remote name="clang"
-                fetch="https://gitlab.com/Amritorock" />
-        <remote name="los"
-                fetch="https://github.com/LineageOS" />
+  <project name="android_device_oneplus_aston-kernel" path="device/oneplus/aston-kernel" revision="lineage-21" remote="12r" />
+  <project name="android_kernel_oneplus_sm8550" path="kernel/oneplus/sm8550" revision="lineage-21" remote="12r" />
+  <project name="android_kernel_oneplus_sm8550-devicetrees" path="kernel/oneplus/sm8550-devicetrees" revision="lineage-21"  remote="12r" />
+  <project name="android_kernel_oneplus_sm8550-modules" path="kernel/oneplus/sm8550-modules" revision="lineage-21" remote="12r" />
 
-        <!-- Replacement -->
-        <remove-project name="android_frameworks_base" />
+  <project name="android_hardware_oplus" path="hardware/oplus" revision="lineage-21" remote="12r" />
 
-       <!-- Device trees -->
-        <project path="device/realme/bearmonets" name="device_realme_bearmonets" remote="om" revision="thirteen" />
-        <project path="vendor/realme/bearmonets" name="vendor_realme_bearmonets" remote="om" revision="thirteen" clone-depth="1" />
-        <project path="kernel/realme/bearmonets" name="kernel_realme_r5x" remote="org" revision="inline/dynamic" />
-        
-        <!-- Source Repos -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-        <!-- Replaced -->
-        <project path="frameworks/base" name="android_frameworks_base" remote="om" revision="triton" clone-depth="1" />        
- 
-<!-- <remove-project path="hardware/qcom-caf/sm8150/display"/> 
-        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="om" revision="lineage-20.0-caf-sm8150" />
-       -->
+  <project name="proprietary_vendor_oneplus_aston" path="vendor/oneplus/aston" revision="lineage-21" remote="12r" />
+  <project name="proprietary_vendor_oneplus_sm8550-common" path="vendor/oneplus/sm8550-common" revision="lineage-21" remote="12r" />
 </manifest>
