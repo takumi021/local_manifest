@@ -1,5 +1,5 @@
 ```
-mkdir .repo/local_manifests && wget https://raw.githubusercontent.com/takumi021/local_manifest/aston/default.xml -O .repo/local_manifests/default.xml
+mkdir .repo/local_manifests && wget https://raw.githubusercontent.com/takumi021/local_manifest/aston/local_manifest.xml -O .repo/local_manifests/default.xml
 ```
 Then to sync up:
 ```
